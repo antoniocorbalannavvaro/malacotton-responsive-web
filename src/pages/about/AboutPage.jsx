@@ -1,8 +1,9 @@
+import style from './AboutPage.module.css';
 
 const AboutPage = () => {
   return (
-    <div>
-      AboutPage
+    <div className={style.page}>
+      <h1>Acerca de nosotros</h1>
     </div>
   );
 }

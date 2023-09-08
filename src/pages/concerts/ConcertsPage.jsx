@@ -1,8 +1,9 @@
+import style from './ConcertsPage.module.css';
 
 const ConcertsPage = () => {
   return (
-    <div>
-      ConcertsPage
+    <div className={style.page}>
+      <h1>Conciertos</h1>
     </div>
   );
 }

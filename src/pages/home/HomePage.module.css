@@ -6,11 +6,8 @@
   justify-content: center;
   text-align: center;
   margin-top: 50px;
-  /* background-color: #F3F3F3; */
   color: #2939DE;
   font-family: 'Inter', sans-serif;
-  /* margin-left: 50px;
-  margin-right: 50px; */
 }
 
 .homePage p {
@@ -50,12 +47,12 @@
 .responsiveOne {
   max-inline-size: 80%;
   block-size: auto;
-  /* aspect-ratio: 2/1; */
 }
 
 @media only screen and (max-width: 590px) {
   iframe {
     width: 100%;
+    padding: 10px;
   }
 
   .homePage h1 {
@@ -71,5 +68,9 @@
 
 .facesLogo {
   margin-bottom: 40px;
+}
+
+.dreamTeam {
+  margin-top: 50px;
 }
 

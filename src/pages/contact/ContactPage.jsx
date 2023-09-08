@@ -1,8 +1,9 @@
+import style from './ContactPage.module.css';
 
 const ContactPage = () => {
   return (
-    <div>
-      ContactPage
+    <div className={style.page}>
+      <h1>Contacto</h1>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.page {
+  margin-top: 70px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

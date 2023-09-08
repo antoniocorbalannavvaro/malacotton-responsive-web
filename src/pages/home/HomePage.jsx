@@ -4,11 +4,9 @@ import SpotifyPlayer from 'react-spotify-player';
 // IMAGES:
 import dreamTeamLogo from "../../assets/dreamTeamLogo.webp";
 import facesLogo from '../../assets/facesBanner.webp';
-import instagramImg from '../../assets/instagram.png'
-import youtubeImg from '../../assets/youtube.png'
+import instagramImg from '../../assets/instagram.png';
+import youtubeImg from '../../assets/youtube.png';
  
-// size may also be a plain string using the presets 'large' or 'compact'
-
 const HomePage = () => {
 
   const size = {
@@ -16,13 +14,13 @@ const HomePage = () => {
     height: '152px',
   };
   
-  const view = 'list'; // or 'coverart'
-  const theme = 'black'; // or 'white'
+  const view = 'list';
+  const theme = 'black';
 
   return (
     <div className={style.homePage}>
 
-      <div>
+      <div className={style.dreamTeam}>
         <img className={style.responsiveOne} src={dreamTeamLogo}
           width={'496px'}
           height={'301px'} 
