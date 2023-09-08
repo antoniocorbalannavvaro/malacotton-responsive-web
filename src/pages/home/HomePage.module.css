@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.homePage {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  /* background-color: #F3F3F3; */
+  color: #2939DE;
+  font-family: 'Inter', sans-serif;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+}
+
+.homePage p {
+  width: fit-content;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: calc(12px + 0.390625vw);
+}
+
+.homePage h1 {
+  font-family: 'Inter';
+  font-weight: 700;
+  line-height: 75px;
+  word-spacing: 0rem;
+  font-size: calc(40px + 0.390625vw);
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.socialContainer img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.socialContainer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.parrafo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.responsiveOne {
+  max-inline-size: 80%;
+  block-size: auto;
+  /* aspect-ratio: 2/1; */
+}
+
+@media only screen and (max-width: 590px) {
+  iframe {
+    width: 100%;
+  }
+
+  .homePage h1 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .homePage p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.facesLogo {
+  margin-bottom: 40px;
+}
+
