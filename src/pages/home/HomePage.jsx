@@ -48,7 +48,7 @@ const HomePage = () => {
       </div>
         
       <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/p6HcOzH40Wg?si=wma_eSCCl6FNE2iK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vy7ql7GTdWw?si=SCfsXp8zYK3ilWOf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       <h1>¿Quieres mover el culo?</h1>
